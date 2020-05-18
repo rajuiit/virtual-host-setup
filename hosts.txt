@@ -1,0 +1,28 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+#192.168.102.11 login.a.ticketshala.com.bd operator.a.ticketshala.com.bd admin.a.ticketshala.com.bd care.a.ticketshala.com.bd www.a.ticketshala.com.bd a.ticketshala.com.bd counter.a.ticketshala.com.bd myadmin.ticketshala.com.bd
+#192.168.102.11 login.b.ticketshala.com.bd operator.b.ticketshala.com.bd admin.b.ticketshala.com.bd care.b.ticketshala.com.bd www.b.ticketshala.com.bd b.ticketshala.com.bd counter.b.ticketshala.com.bd myadmin.ticketshala.com.bd
+#128.199.232.56 login.ticketshala.com admin.ticketshala.com www.ticketshala.com
+
+127.0.0.1 login.ticketshala.dev admin.ticketshala.dev www.ticketshala.dev care.ticketshala.dev

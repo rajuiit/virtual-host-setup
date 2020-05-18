@@ -1,0 +1,52 @@
+[3:04:29 PM] zaman: <VirtualHost *:80>
+      DocumentRoot "E:/xampp/htdocs/ticketshala/auth/public"
+      ServerName www.ticketshala.dev
+      ServerAlias  *.ticketshala.dev care.ticketshala.dev ticketshala.dev  www.ticketshala.dev operator.ticketshala.dev admin.ticketshala.dev cc.ticketshala.dev login.ticketshala.dev counter.ticketshala.dev
+  RewriteEngine on
+  #RewriteRule ^/(.*)$ /index.php?request=$1 [PT,QSA,L]
+</VirtualHost>
+
+
+[3:04:49 PM] zaman: Alias /hotels "/xampp/htdocs/ticketshala/branch/hotels/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/hotels/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+ 
+ Alias /events "/xampp/htdocs/ticketshala/branch/events/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/events/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+ 
+ Alias /entertainment "/xampp/htdocs/ticketshala/branch/entertainment/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/entertainment/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+ 
+ Alias /tours "/xampp/htdocs/ticketshala/branch/tours/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/tours/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+ 
+  Alias /rent-a-car "/xampp/htdocs/ticketshala/branch/rent-a-car/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/rent-a-car/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+   Alias /flight "/xampp/htdocs/ticketshala/branch/flight/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/flight/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+ 
+ Alias /bus "/xampp/htdocs/ticketshala/branch/bus/public/"
+ <Directory "/xampp/htdocs/ticketshala/branch/bus/public/">
+        Require all granted
+  AllowOverride all
+ </Directory>
+ 
+ 
+[3:05:10 PM] zaman: 127.0.0.1 login.ticketshala.dev admin.ticketshala.dev www.ticketshala.dev care.ticketshala.dev
